@@ -4,7 +4,8 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="" alt="project-screenshot" width="400" height="400/">
+
+<img width="1624" alt="Screenshot 2024-07-27 at 12 24 21" src="https://github.com/user-attachments/assets/e1d6a5a0-fb24-41de-bbdb-b2b468083ef8">
 
   
   
