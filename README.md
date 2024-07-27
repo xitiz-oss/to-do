@@ -26,6 +26,6 @@ Technologies used in the project:
 *   Backend: Django Django REST Framework
 *   API Integration: Axios for handling API requests
 
-<h2>💖Like my work?</h2>
+<h2>🚀 Future Works</h2>
 
 This repo is still under development and features will be added progressively.
