@@ -17,34 +17,6 @@ Here're some of the project's best features:
 *   Productivity Enhancement
 
   
-  
-<h2>MATLAB Code</h2>
-```
-% Creating the body for the warning/ alert
-alertBody = 'GAS LEAKAGE DETECTED\nPlease attend to the situation before it
-becomes hazardous'
-
-% Creating the subject for the warning/ alert
-alertSubject = 'WARNING!!!'
-
-% API key for ThingSpeak alerts which is essential for authentication
-alertApiKey = 'TAKEMfbs/F8Snn7maXk';
-
-% Set the address for the HTTTP call
-alertUrl="https://api.thingspeak.com/alerts/send";
-
-% creating a JSON message with subject and body
-jsonMessage = sprintf(['{"subject": "%s","body": "%s"}'], alertSubject,alertBody)
-
-% weboptions creates an options object for HTTP request
-% the API key and the type of content is specified
-options = weboptions("HeaderFields",{'Thingspeak-Alerts-API-Key', alertApiKey;
-'Content-Type','application/json'});
-
-% webwrite sends an HTTP POST request ot the specified URL(alertUrl) with JSON
-message and options
-result = webwrite(alertUrl, jsonMessage, options);
-```
 
 
 <h2>💻 Built with</h2>
